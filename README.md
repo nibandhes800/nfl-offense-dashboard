@@ -13,7 +13,7 @@ Data
 NFL 2024 play by play data from nflverse (play_by_play_2024.csv, the same file as my Projects 1 and 2). I kept run and pass plays that have an EPA value: 35,050 plays across 32 teams.
 
 EPA (expected points added) measures how much a play changes the offense's expected points. A higher value is better.
-
+git log -1 --format="%an %ae%n%b"
 The raw file is about 100 MB, so it is not included in this repo. Download the 2024 play by play data from nflverse and set the file path in the notebook.
 
 Method
@@ -42,7 +42,7 @@ Tools
 Python, pandas, Jupyter, Tableau Public
 
 Files
-Project3-NFLDashboard.ipynb: data preparation notebook (rename to match your notebook)
+`nfl-offense-dashboard.ipynb`: data preparation notebook
 team_week.csv: one row per team per week
 team_style.csv: one row per team with pass EPA and run EPA
 dashboard.png: screenshot of the dashboard
